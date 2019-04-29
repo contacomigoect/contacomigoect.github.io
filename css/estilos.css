@@ -1,0 +1,281 @@
+:root {
+    --um: #0253b3;
+    --dois: #ffffff;
+    --tres: #eff2f4;
+    --quatro: #18a4e0;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Rubik+One';
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Righteous", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    font-family: 'Comfortaa', cursive;
+}
+
+.navbar {
+    height: 51px;
+    margin-top: 10px;
+    background: var(--quatro);
+}
+
+.navbar a {
+    color: var(--dois) !important;
+}
+
+
+.active a {
+    background: var(--um) !important;
+}
+
+.navbar-right {
+    margin-top: 10px;
+}
+
+.navbar-right a {
+    text-decoration: none;
+}
+
+.dropdown-menu li {
+    background: var(--um);
+}
+
+
+.container {
+    background: var(--tres);
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.sociais a :hover,
+.menu a:hover,
+.carousel-caption a:hover {
+    color: var(--um) !important;
+    transition: all 0.3s ease-out;
+    font-weight: bold;
+}
+
+.active a:hover {
+    color: var(--dois) !important;
+    transition: all 0.3s ease-out;
+    font-weight: bold;
+}
+
+#hide {
+    visibility: hidden;
+}
+
+.carousel {
+    margin-bottom: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    background: rgba(73, 73, 73, 0.7);
+    text-align: justify;
+    padding: 10px;
+    max-height: 800px;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%;
+}
+
+.carousel img {
+    opacity: .75;
+}
+
+.cards {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-bottom: 15px;
+}
+
+.contitulos {
+    background: var(--quatro);
+}
+
+.contitulos h3 {
+    padding-top: 10px;
+}
+
+
+.cards-info {
+    background: var(--dois);
+    padding: 0.5rem;
+    border-bottom: var(--sec) 5px solid;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards-info li {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.cards-info p {
+    margin: 30px;
+}
+
+.cards-info span {
+    font-weight: bold;
+}
+
+.contitulos h3 {
+    font-weight: bold;
+}
+
+
+.btn,
+.btn:hover,
+.btn:active,
+.btn:visited,
+.btn:focus {
+    background-color: var(--quatro) !important;
+    border-color: var(--tres) !important;
+    float: right;
+    color: var(--tres);
+    opacity: .98;
+}
+
+.quemSomos {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.jumbotron p {
+    text-align: justify;
+}
+
+.contato {
+    padding-top: 20px;
+    background-color: var(--main);
+    color: var(--txt);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+.box h1 {
+    color: var(--dois);
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+
+.contato-container {
+    display: grid;
+    grid-row-gap: 0;
+    grid-column-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-areas:
+        "dds msg"
+        "bts bts";
+    float: left;
+    position: relative;
+}
+
+.centraliza {
+    display: flex;
+    justify-content: center;
+}
+
+.dados {
+    grid-area: dds;
+}
+
+.mensagem {
+    grid-area: msg;
+}
+
+textarea {
+    width: 500px;
+    padding: 3px;
+    max-width: 500px;
+}
+
+::placeholder {
+    color: var(--quatro) !important;
+}
+
+.botoes {
+    text-align: center;
+    grid-area: bts;
+}
+
+.box input[type="text"],
+.box input[type="email"],
+.box input[type="tel"],
+.box textarea {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid var(--um);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #000;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="email"]:focus,
+.box input[type="tel"]:focus,
+.box textarea:focus {
+    width: 280px;
+    border-color: var(--um);
+}
+
+.box input[type="submit"],
+.box input[type="reset"] {
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid var(--quatro);
+    padding: 14px 40px;
+    outline: none;
+    color: var(--um);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"],
+.box input[type="reset"]:hover {
+    background: var(--quatro);
+}
+
+@media (max-width: 538px) {
+    .container {
+        width: 100%;
+    }
+
+    .carousel-caption p {
+        visibility: hidden;
+    }
+
+    .navbar {
+        height: auto;
+    }
+
+    .contato-container {
+        grid-template-areas:
+            "dds"
+            "msg"
+            "bts"
+
+    }
