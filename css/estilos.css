@@ -259,6 +259,19 @@ textarea {
     background: var(--quatro);
 }
 
+.rodape {
+    text-align: center;
+    background: var(--quatro);
+    color: var(--dois);
+    height: 60px;
+}
+
+.rodape div {
+    display: block;
+    float: none;
+    margin-bottom: 10px;
+}
+
 @media (max-width: 538px) {
     .container {
         width: 100%;
@@ -277,5 +290,5 @@ textarea {
             "dds"
             "msg"
             "bts"
-
     }
+}

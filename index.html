@@ -1,323 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- Optional theme -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
-      integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Comfortaa"
-      rel="stylesheet"
-    />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="css/estilos.css" />
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+    integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/estilos.css" />
 
 
-    <title>#ContaComigo</title>
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="container-fluid">
-        <nav class="navbar navbar-default ">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <button
-                type="button"
-                class="navbar-toggle
-                                collapsed"
-                data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1"
-                aria-expanded="false"
-              >
-                <span class="sr-only"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">#ContaComigo</a>
-            </div>
+  <title>#ContaComigo</title>
+</head>
 
-            <div
-              class="collapse navbar-collapse"
-              id="bs-example-navbar-collapse-1"
-            >
-              <ul class="nav navbar-nav menu">
-                <li class="active">
-                  <a href="#">Inicio <span class="sr-only">(current)</span></a>
-                </li>
-                <li><a href="#quem">Quem Somos</a></li>
-                <li><a href="#auxilio">Auxílio</a></li>
-                <li class="dropdown">
-                  <a
-                    href="#"
-                    class="dropdown-toggle"
-                    data-toggle="dropdown"
-                    role="button"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    >Blog <span class="caret"></span
-                  ></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Artigos</a></li>
-                    <li><a href="#">Relatos</a></li>
-                  </ul>
-                </li>
-                <li id="ajuda">
-                  <a href="#">Contato <span id="hide">____</span></a>
-                </li>
-              </ul>
-
-              <ul class="nav navbar-nav navbar-right sociais">
-                <a href="https://twitter.com/" target="_blank">
-                  <i class="fab fa-twitter fa-2x"></i>
-                </a>
-                <a href="https://www.facebook.com/" target="_blank">
-                  <i class="fab fa-facebook fa-2x"></i>
-                </a>
-                <a href="https://www.instagram.com/" target="_blank">
-                  <i class="fab fa-instagram fa-2x"></i>
-                </a>
-                <a href="https://youtube.com/" target="_blank">
-                  <i class="fab fa-youtube fa-2x"></i>
-                </a>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-        <div
-          id="carousel-example-generic"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carousel-example-generic"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="img/vitrine1.jpg" alt="..." />
-
-              <div class="carousel-caption">
-                <h3>
-                  Precisamos falar sobre depressão
-                </h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Temporibus nisi culpa hic sequi autem expedita corporis,
-                  magnam atque impedit totam molestiae provident suscipit et non
-                  soluta recusandae fugit rem, eum distinctio dolore,
-                  repellendus illo. Eaque saepe ratione exercitationem quia
-                  ipsum!
-                </p>
-                <a class="btn btn-default" href="#" role="button">Saiba Mais</a>
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="img/vitrine2.jpg" alt="..." />
-              <div class="carousel-caption">
-                <h3>
-                  Você não está sozinho
-                </h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Commodi minus adipisci sed numquam, incidunt vel officia nulla
-                  unde rerum excepturi eos consequuntur ullam, optio nesciunt
-                  harum! Omnis animi natus, atque rerum, fugiat eum voluptates
-                  perspiciatis, libero nisi error beatae consectetur.
-                </p>
-                <a class="btn btn-default" href="#" role="button">Saiba Mais</a>
-              </div>
-            </div>
-            <div class="item">
-              <img src="img/vitrine3.jpg" alt="..." />
-              <div class="carousel-caption">
-                <h3>A importância da saúde mental</h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Voluptatum aperiam laboriosam ea ex est. Eum corporis cumque
-                  voluptatem minima neque! Suscipit quas illum vero, iure iste
-                  nulla dolorum magni animi odio quod esse ea consequuntur
-                  praesentium, delectus id perferendis modi?
-                </p>
-                <a class="btn btn-default" href="#" role="button">Saiba Mais</a>
-              </div>
-            </div>
+<body>
+  <div class="container">
+    <div class="container-fluid">
+      <nav class="navbar navbar-default ">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle
+                                collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">#ContaComigo</a>
           </div>
 
-          <!-- Controls -->
-          <a
-            class="left carousel-control"
-            href="#carousel-example-generic"
-            role="button"
-            data-slide="prev"
-          >
-            <span
-              class="glyphicon glyphicon-chevron-left"
-              aria-hidden="true"
-            ></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="right carousel-control"
-            href="#carousel-example-generic"
-            role="button"
-            data-slide="next"
-          >
-            <span
-              class="glyphicon glyphicon-chevron-right"
-              aria-hidden="true"
-            ></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-
-      <!-- Quem Somos -->
-
-      <div class="quemSomos" id="quem">
-        <div class="jumbotron">
-          <h1>Quem Somos</h1>
-          <p>
-            Esta página foi desenvolvida por um grupo de alunos da disciplina
-            Política Científica e Tecnológica do Bacharelado em Ciências e
-            Tecnologia da UFRN, ela é fruto das discussões dos conteudos de tal
-            disciplina. Nenhum dos alunos possui formação em áreas que dizem
-            respeito a saude mental.
-          </p>
-
-          <p>
-            O objetivo dessa página é agregar conteudos que dizem respeito a
-            saúde mental principalemnte no ambiente academico, trazendo videos,
-            reportagens, dicas de com se organizar para estudar e demais
-            conteudos que façam o processo academico ser mais prazeroso. Além
-            disso, a página traz endereços de onde encontrar serviços de apoio
-            psicológico dentro da universidade, resaltando que nada substitui o
-            acompanhamento e o trabalho de um profissional da área.
-          </p>
-        </div>
-      </div>
-
-      <!-- Card ajuda -->
-     
-        <div class="jumbotron" id="auxilio">
-          <h1>Auxílio Psicologico na UFRN</h1>
-          <p>
-            Seguem aqui, alguns dos locais onde você poderá encontrar auxilio psicológico na UFRN.
-          </p>
-        <div class="cards">
-          <div class="cards-info">
-            <div class="contitulos">
-              <h3>SEPA (Serviço de Psicologia Aplicada)</h3>
-              <h4>Atendimento com Psicólogo Clínico na UFRN</h4>
-            </div>
-            <p>Trata-se da clínica escola do curso de Psicologia da UFRN, composta por equipe própria de psicólogos e pelos alunos e professores do curso, prestando atendimento psicológico a adultos, adolescentes e crianças. O objetivo desta entidade é conduzir o tratamento dos sujeitos que buscam o serviço, possibilitando um redimensionamento dos seus sintomas e a consequente diminuição do seu sofrimento psíquico.</p>
-            <ul>
-              <li><span>ENDEREÇO : </span>Campus Universitário UFRN Lagoa Nova - Rua da Biblioteca, entre o setor I e Biblioteca Central, Campus Universitário.</li>
-              <li><span>TELEFONE 1:</span> (84) 3342-2234</li>
-              <li><span>TELEFONE 2: </span>(84) 3215-3603</li>
-              <li><span>EMAIL : </span>registro.sepa@gmail.com</li>             
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav menu">
+              <li class="active">
+                <a href="index.html">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li><a href="#quem">Quem Somos</a></li>
+              <li><a href="auxilio.html">Auxílio</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Blog <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Artigos</a></li>
+                  <li><a href="#">Relatos</a></li>
+                </ul>
+              </li>
+              <li id="ajuda">
+                <a href="#">Contato <span id="hide">____</span></a>
+              </li>
             </ul>
-          </div>
-          <div class="cards-info">
-            <div class="contitulos">
-              <h3>CADIS (Centro de Atendimento ao Discente)</h3>
-              <h4>Plantão Psicológico da PROAE</h4>
-            </div>
-            <p>No CADIS (Centro de Atendimento ao Discente) também tem o Plantão Psicológico da PROAE, que é um serviço de caráter pontual que tem o objetivo de contribuir para o alívio emocional por meio de uma escuta terapêutica.</p>
-            <p>Há também o Projeto Hábitos de Estudo (PHE), da UFRN, e tem como principal objetivo orientar os alunos sobre um melhor gerenciamento do tempo, cumprimento de metas, combate à procrastinação e construção de hábitos de estudo saudáveis.</p>
-            <ul>
-              <li><span>ENDEREÇO : </span>Escola de Ciências e Tecnologia / UFRN, s/n
-                Campus Universitário, Lagoa Nova - Natal - RN</li>
-              <li><span>TELEFONE 1:</span> (84) 3342.2278  - PROAE</li>
-              <li><span>TELEFONE 2: </span>(84) 3342-2278 (Ramal 8) - CADIS</li>
-              <li><span>EMAIL PROAE: </span>assuntos_estudantis@reitoria.ufrn.br</li>    
-              <li><span>EMAIL PHE: </span>phe@reitoria.ufrn.br</li>            
+
+            <ul class="nav navbar-nav navbar-right sociais">
+              <a href="https://twitter.com/" target="_blank">
+                <i class="fab fa-twitter fa-2x"></i>
+              </a>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+              <a href="https://youtube.com/" target="_blank">
+                <i class="fab fa-youtube fa-2x"></i>
+              </a>
             </ul>
           </div>
         </div>
+      </nav>
 
-        <!-- Contato -->
-        <div class="jumbotron" id="auxilio">
-          <h1>Contato</h1>
-          <p>
-            Sinta-se a vontade de entrar em contato conosco.
-          </p>
-          <form class="box centraliza" action="#home" method="post">
-            <div class="contato-container">
-                <div class="dados">
-                    <input type="text" name="nome"
-                        placeholder="Seu nome">
-                    <input type="email" name="email"
-                        placeholder="Seu email">
-                    <input type="tel" name="telefone"
-                        placeholder="Seu telefone">
-                </div>
-                <div class="mensagem">
-                    <textarea rows="7"
-                        name="mensagem"
-                        id=""
-                        placeholder="Digite aqui sua mensagem"
-                        cols="50"
-                        rows="10"></textarea>
-                </div>
-                <div class="botoes">
-                    <input type="submit" name="" value="Enviar">
-                    <input type="reset" name="" value="Apagar">
-                </div>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/vitrine1.jpg" alt="..." />
+
+            <div class="carousel-caption">
+              <h3>
+                Precisamos falar sobre depressão
+              </h3>
+              <p>
+                Aproximadamente uma em cada cinco pessoas são atingidas pela depressão em algum momento da vida. Isso
+                significa que o problema não está ao lado, ele está dentro das nossas casas, do nosso ambiente familiar.
+                É preciso olhar com delicadeza para perceber os seus sintomas. Ansiedade, angústia e desânimo são apenas
+                alguns deles. E, infelizmente, depressão mata.
+              </p>
+              <a class="btn btn-default" href="depressao.html" role="button">Saiba Mais</a>
             </div>
+          </div>
+
+          <div class="item">
+            <img src="img/vitrine2.jpg" alt="..." />
+            <div class="carousel-caption">
+              <h3>
+                Você não está sozinho
+              </h3>
+              <p>
+                De repente alguma coisa acontece – seja uma ação ou um pensamento – e o gatilho é liberado na mente. A
+                respiração começa a falhar e fica ofegante, o coração acelera que parece que vai ter um infarto, o corpo
+                treme e sua, uma sensação de calor e frio ao mesmo tempo e na mente só pensamentos ruins de que nada vai
+                dar certo e de que não é capaz de aguentar isso. Calma, você não está sozinho.
+              </p>
+              <a class="btn btn-default" href="nsozinho.html" role="button">Saiba Mais</a>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/vitrine3.jpg" alt="..." />
+            <div class="carousel-caption">
+              <h3>Saúde mental no ambiente academico</h3>
+              <p>
+                Você, universitário, já parou para avaliar como anda a sua saúde mental? O ambiente acadêmico, apesar de
+                possibilitar o desenvolvimento individual, pode trazer consequências negativas para a mente humana.
+                Prazos, avaliações e compromissos universitários tendem a desencadear uma série de problemas
+                psicológicos nos alunos.
+              </p>
+              <a class="btn btn-default" href="mental.html" role="button">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Quem Somos -->
+
+    <div class="quemSomos" id="quem">
+      <div class="jumbotron">
+        <h1>Quem Somos</h1>
+        <p>
+          Esta página foi desenvolvida por um grupo de alunos da disciplina
+          Política Científica e Tecnológica do Bacharelado em Ciências e
+          Tecnologia da UFRN, ela é fruto das discussões dos conteudos de tal
+          disciplina. Nenhum dos alunos possui formação em áreas que dizem
+          respeito a saude mental.
+        </p>
+
+        <p>
+          O objetivo dessa página é agregar conteudos que dizem respeito a
+          saúde mental principalemnte no ambiente academico, trazendo videos,
+          reportagens, dicas de com se organizar para estudar e demais
+          conteudos que façam o processo academico ser mais prazeroso. Além
+          disso, a página traz endereços de onde encontrar serviços de apoio
+          psicológico dentro da universidade, resaltando que nada substitui o
+          acompanhamento e o trabalho de um profissional da área.
+        </p>
+      </div>
+    </div>
+
+    <!-- Card ajuda -->
+
+    <div class="jumbotron" id="auxilio">
+      <h1>Auxílio Psicologico na UFRN</h1>
+      <p>
+        Seguem aqui, alguns dos locais onde você poderá encontrar auxilio psicológico na UFRN.
+      </p>
+      <div class="cards">
+        <div class="cards-info">
+          <div class="contitulos">
+            <h3>SEPA (Serviço de Psicologia Aplicada)</h3>
+            <h4>Atendimento com Psicólogo Clínico na UFRN</h4>
+          </div>
+          <p>Trata-se da clínica escola do curso de Psicologia da UFRN, composta por equipe própria de psicólogos e
+            pelos alunos e professores do curso, prestando atendimento psicológico a adultos, adolescentes e crianças. O
+            objetivo desta entidade é conduzir o tratamento dos sujeitos que buscam o serviço, possibilitando um
+            redimensionamento dos seus sintomas e a consequente diminuição do seu sofrimento psíquico.</p>
+          <ul>
+            <li><span>ENDEREÇO : </span>Campus Universitário UFRN Lagoa Nova - Rua da Biblioteca, entre o setor I e
+              Biblioteca Central, Campus Universitário.</li>
+            <li><span>TELEFONE 1:</span> (84) 3342-2234</li>
+            <li><span>TELEFONE 2: </span>(84) 3215-3603</li>
+            <li><span>EMAIL : </span>registro.sepa@gmail.com</li>
+          </ul>
+        </div>
+        <div class="cards-info">
+          <div class="contitulos">
+            <h3>CADIS (Centro de Atendimento ao Discente)</h3>
+            <h4>Plantão Psicológico da PROAE</h4>
+          </div>
+          <p>No CADIS (Centro de Atendimento ao Discente) também tem o Plantão Psicológico da PROAE, que é um serviço de
+            caráter pontual que tem o objetivo de contribuir para o alívio emocional por meio de uma escuta terapêutica.
+          </p>
+          <p>Há também o Projeto Hábitos de Estudo (PHE), da UFRN, e tem como principal objetivo orientar os alunos
+            sobre um melhor gerenciamento do tempo, cumprimento de metas, combate à procrastinação e construção de
+            hábitos de estudo saudáveis.</p>
+          <ul>
+            <li><span>ENDEREÇO : </span>Escola de Ciências e Tecnologia / UFRN, s/n
+              Campus Universitário, Lagoa Nova - Natal - RN</li>
+            <li><span>TELEFONE 1:</span> (84) 3342.2278 - PROAE</li>
+            <li><span>TELEFONE 2: </span>(84) 3342-2278 (Ramal 8) - CADIS</li>
+            <li><span>EMAIL PROAE: </span>assuntos_estudantis@reitoria.ufrn.br</li>
+            <li><span>EMAIL PHE: </span>phe@reitoria.ufrn.br</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contato -->
+      <div class="jumbotron" id="auxilio">
+        <h1>Contato</h1>
+        <p>
+          Sinta-se a vontade de entrar em contato conosco.
+        </p>
+        <form class="box centraliza" action="#home" method="post">
+          <div class="contato-container">
+            <div class="dados">
+              <input type="text" name="nome" placeholder="Seu nome">
+              <input type="email" name="email" placeholder="Seu email">
+              <input type="tel" name="telefone" placeholder="Seu telefone">
+            </div>
+            <div class="mensagem">
+              <textarea rows="7" name="mensagem" id="" placeholder="Digite aqui sua mensagem" cols="50"
+                rows="10"></textarea>
+            </div>
+            <div class="botoes">
+              <input type="submit" name="" value="Enviar">
+              <input type="reset" name="" value="Apagar">
+            </div>
+          </div>
         </form>
-          
+      </div>
 
-        </div>
-          
+      <!-- Inicio Rodapé-->
 
-      
+
+
+
 
     </div>
-    
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script
-      src="https://code.jquery.com/jquery-1.12.4.min.js"
-      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
+    </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
