@@ -21,7 +21,8 @@ html {
 .navbar {
     height: 51px;
     margin-top: 10px;
-    background: var(--quatro);
+     /*background: var(--quatro);*/
+    background: red;
 }
 
 .navbar a {
